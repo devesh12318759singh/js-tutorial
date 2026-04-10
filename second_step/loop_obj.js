@@ -16,3 +16,22 @@ const array = [1,2,3,4,5]
 array.forEach(function(item) {
     console.log(item)
 });
+
+/*
+//object inside array 
+const myObject =  [
+    {
+        js: 'javascript' ,
+        cpp: 'C++' ,
+        rb: 'ruby' ,
+        swift: 'Apple swift'
+    }
+]
+ 
+//For each loop does not return any value
+myObject.forEach( (item) =>{
+    console.log(item.rb);
+})
+*/
+
+
